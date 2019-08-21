@@ -1,0 +1,5 @@
+READ ME:
+
+How to run the web application:
+
+python python flask_server.py

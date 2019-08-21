@@ -1,0 +1,25 @@
+-- Enter Query Title
+-- Enter Query Description
+
+SELECT Body, Tags FROM Posts where CreationDate > '2019-08-01 05:36:39'
+and Tags is not null 
+and Body like ('%<code>%')
+
+https://data.stackexchange.com/stackoverflow/query/edit/1092843
+
+SELECT top 20000 Body, Tags FROM Posts where Tags like '%javascript%'
+and Body like ('%<code>%')
+
+javascript
+php
+C#
+html
+python
+C++
+perl 
+swift
+ruby
+sql
+
+
+
