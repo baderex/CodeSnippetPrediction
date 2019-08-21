@@ -1,0 +1,20 @@
+<head>
+<style>
+
+#code_snippet {
+    width: 500px;
+	height: 300px;
+} 
+</style>
+<head>
+{% from "_formhelpers.html" import render_field %}
+<br/>
+<center>
+<h1> Code Snippet Prediction </h1>
+<form method=post action="/home">
+  <dl>
+    {{ render_field(form.code_snippet) }}
+  </dl>
+  <p><input type=submit value=Predict>
+</form>
+<b> Min # of Char 50 </b>
